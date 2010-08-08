@@ -10,7 +10,7 @@
                 uri: "de/deepamehta/core/property/Summary",
                 data_type: "text",
                 editor: "single line",
-                js_renderer_class: TitleRenderer
+                js_renderer_class: "TitleRenderer"
             },
             {
                 label: "Due Date",
@@ -21,7 +21,8 @@
                 label: "Notes",
                 uri: "de/deepamehta/core/property/Notes",
                 data_type: "html",
-                lines: 10
+                lines: 10,
+                indexing_mode: "FULLTEXT"
             }
         ]
     }
